@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url("https://fonts.googleapis.com/css?family=Lato");
 
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 header {
@@ -11,10 +11,16 @@ header {
   color: #fff;
   font-size: 20px;
 }
-
-a {
+header a {
   color: #fff;
   text-decoration: none;
+  padding: 10px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+header a:hover {
+  background-color: #6372b3;
+  transition: 0.3s;
 }
 
 /*  HEADER TOP SECTION  */
@@ -25,38 +31,35 @@ a {
   justify-content: space-around;
 }
 .header-top nav {
-  flex: 8;
+  flex: 7;
   display: flex;
   justify-content: space-around;
 }
 
 .title-label {
   flex: 2;
-  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 .title-label span {
   font-size: 42px;
 }
 
 .lang {
-  flex: 2;
+  flex: 1;
   text-align: center;
 }
 
 .main {
-
 }
 
 .blog {
-
 }
 
 .portfolio {
-
 }
 
 .github {
-
 }
 
 .github-icon {
@@ -65,15 +68,19 @@ a {
 
 /*  HEADER CONTENT SECTION  */
 .header-content {
-  padding: 50px 20px;
+  padding: 50px 30px;
   display: flex;
+  justify-content: center;
 }
 
 .intro {
+  color: #ddd;
   border-right: 1px solid #fff;
-  padding: 0 20px;
+  padding-right: 20px;
+  flex-basis: 35%;
 }
 
 .info {
-  padding: 0 20px;
+  padding-left: 30px;
+  flex-basis: 35%;
 }
