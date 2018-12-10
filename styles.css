@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+header {
+  background: linear-gradient(45deg, #445086, #5261a2);
+  color: #fff;
+  font-size: 20px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/*  HEADER TOP SECTION  */
+.header-top {
+  display: flex;
+  align-items: center;
+  height: 100px;
+  justify-content: space-around;
+}
+.header-top nav {
+  flex: 8;
+  display: flex;
+  justify-content: space-around;
+}
+
+.title-label {
+  flex: 2;
+  text-align: center;
+}
+.title-label span {
+  font-size: 42px;
+}
+
+.lang {
+  flex: 2;
+  text-align: center;
+}
+
+.main {
+
+}
+
+.blog {
+
+}
+
+.portfolio {
+
+}
+
+.github {
+
+}
+
+.github-icon {
+  background-color: #fff;
+}
+
+/*  HEADER CONTENT SECTION  */
+.header-content {
+  padding: 50px 20px;
+  display: flex;
+}
+
+.intro {
+  border-right: 1px solid #fff;
+  padding: 0 20px;
+}
+
+.info {
+  padding: 0 20px;
+}
