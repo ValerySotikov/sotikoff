@@ -56,8 +56,7 @@ header a:hover {
 .blog {
 }
 
-.portfolio {
-}
+
 
 .github {
 }
@@ -80,7 +79,47 @@ header a:hover {
   flex-basis: 35%;
 }
 
+.content {
+  padding-top: 80px;
+}
+
+.portfolio-title {
+  text-align: center;
+}
+
 .info {
   padding-left: 30px;
   flex-basis: 35%;
+}
+
+.pagination {
+  margin: auto;
+  flex-wrap: wrap;
+  width: 700px;
+  display: flex;
+}
+
+.pagination-bar {
+  display: flex;
+  justify-content: center;
+  flex-basis: 100%;
+}
+
+.arrow-left {
+  position: relative;
+  border-top: 2px solid #333;
+  border-left: 2px solid #333;
+  height: 100%;
+}
+.arrow-left::before {
+  display: block;
+  padding-left: 100%;
+}
+
+.arrow-right {
+
+}
+
+.project-wrapper {
+  display: flex;
 }
